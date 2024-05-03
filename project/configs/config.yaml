@@ -1,0 +1,35 @@
+mlflow :
+  use_mlflow : False
+  experiment_name : 'sindy_model'
+  run_name : 'sindy_base'
+
+data_path : ../data/teaTrial12.csv #../data/massSpringData_blue_2_5.csv  #other #../data/teaTrial12.csv #massSpringData_blue_2_5.csv
+
+E_SINDy : 
+  n_models : 100
+  point_ratio : 0.8
+  optimizer : 'bayesian_ridge_regression'
+  random_seed : 42
+
+
+SINDy : 
+  poly_order : 5
+  include_t : False
+  include_poly_predictor : False 
+  order_predict : 0
+  thresh : 0.0001 
+  alpha : 1
+  k_spline : 3
+  use_preprocessing : True
+  interpolated_dt : 200
+
+derivative_method : one_pt
+
+stls_iterates : 5
+percent_thresh : 0.05
+
+smooth_coef : 0.7
+derivative_smooth_coef : 0.5
+
+bayesian_ridge_regression:
+  lambda_ : 2

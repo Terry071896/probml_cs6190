@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/terrycox/UofUCode/ProbML/probml_cs6190/project/src/mlruns/0/c0e26a83bbf04c98ab470504b6295c91/artifacts
+end_time: 1714633935013
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c0e26a83bbf04c98ab470504b6295c91
+run_name: lyrical-crane-958
+run_uuid: c0e26a83bbf04c98ab470504b6295c91
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1714633932951
+status: 3
+tags: []
+user_id: terrycox
